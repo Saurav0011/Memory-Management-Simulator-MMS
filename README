@@ -1,0 +1,27 @@
+# Simple Memory Management Simulator (MMS)
+#*****************************************************************************************************************************************************************************************************************************
+
+## Overview
+This project simulates contiguous memory allocation strategies (First Fit, Best Fit, Worst Fit) to visualize memory utilization, process allocation, and fragmentation in an Operating System context.
+
+## Features
+- **Algorithm Support:** First Fit, Best Fit, Worst Fit.
+- **Memory Management:** Allocation, Deallocation, and Hole Coalescing.
+- **Metrics:** Calculation of Internal and External Fragmentation.
+- **Visualization:** Text-based memory map visualization.
+
+## Technologies/Tools Used
+- **Language:** Python 3.x (or C++)
+- **Core OS Concepts:** Contiguous Memory Allocation, Fragmentation, Allocation Algorithms.
+
+## Steps to Install & Run the Project
+1. Clone the repository: `git clone [repository URL]`
+2. Navigate to the directory: `cd MMS`
+3. Run the main file: `python main.py`
+
+## Instructions for Testing
+1. **Initialize:** Choose option 1 to define the total memory size and initial free holes.
+2. **Allocate:** Choose option 2, select an algorithm (1, 2, or 3), and enter a process size.
+3. **Deallocate:** Choose option 3 and enter the PID of a process to free the memory.
+4. **Monitor:** Use the visualization option (usually 4) to check the memory map and fragmentation metrics after each step.
+#*****************************************************************************************************************************************************************************************************************************
