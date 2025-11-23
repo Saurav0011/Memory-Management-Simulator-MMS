@@ -1,1 +1,1 @@
- Memory-Management-Simulator-MMS
+MMS
