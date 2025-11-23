@@ -1,0 +1,19 @@
+# Problem Statement for Simple Memory Management Simulator (MMS)
+#********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+## Problem Statement
+The challenge in learning Operating Systems is grasping the subtle differences and impacts of contiguous memory allocation algorithms (First Fit, Best Fit, Worst Fit) on memory utilization. Manual demonstration is time-consuming and often fails to adequately illustrate the concepts of external and internal fragmentation.
+
+## Scope of the Project
+The project will focus on simulating a single, fixed-size memory pool. The scope includes the implementation of the three primary allocation algorithms, the deallocation mechanism with hole coalescing, and calculation of key fragmentation metrics. It is limited to contiguous memory allocation and will not implement virtual memory concepts like paging or segmentation.
+
+## Target Users
+- **OS Students:** To visualize algorithms and test scenarios quickly.
+- **Instructors:** To demonstrate memory management concepts in a dynamic environment.
+
+## High-Level Features
+1. Memory Initialization and Configuration.
+2. Allocation via First Fit, Best Fit, and Worst Fit algorithms.
+3. Deallocation with automatic Coalescing of free blocks.
+4. Calculation and reporting of Fragmentation.
+5. Command-line visualization of the memory state.
+#********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
